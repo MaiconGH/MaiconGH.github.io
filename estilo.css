@@ -158,10 +158,16 @@ a.ods:hover{
 }
 #video1{
     margin-left: 10px;
+    height: 300px;
 }
 @media (max-width:800px){
     .paragvideo{
         font-size:18px;
+    }
+}
+@media (max-width:1000px){
+    #video1{
+        height: 200px;
     }
 }
 #fiqueatento{
